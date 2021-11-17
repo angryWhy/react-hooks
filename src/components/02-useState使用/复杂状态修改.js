@@ -16,9 +16,10 @@ export default function App() {
         <div>
             <ul>
                 {freiends.map((item,index)=><li key={item.id}>
-                    <span>{item.id}</span>
-                    <span>{item.name}</span>
-                    <span onClick={e=>btnClick(index)}>{item.age}</span>
+                    <span>{item.id}</span>---
+                    <span>{item.name}</span>---
+                    <span onClick={e=>btnClick(index)}>{item.age}</span>---
+                    
                 </li>)}
             </ul>
         </div>
