@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import Epp from"./components/06-useMemo复杂应用/useMemo传入组件"
+// import App from './App';
+import Epp from"./components/09-ueslayouteffect/Ueslayouteffect"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
